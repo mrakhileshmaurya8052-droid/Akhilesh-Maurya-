@@ -1,0 +1,6 @@
+{
+  "name": "UC LIVE",
+  "description": "UC LIVE - Premium Live Streaming, Batches, Telegram & Bot Hub with stylish dark neon aesthetic and verified access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

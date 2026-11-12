@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #06070a;
+    color: #f3f4f6;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Outfit', 'Chakra Petch', sans-serif;
+  }
+
+  .font-cyber {
+    font-family: 'Chakra Petch', monospace, sans-serif;
+  }
+}
+
+/* Custom glow effects for Yellow, Red, and Green */
+.glow-yellow {
+  box-shadow: 0 0 25px -5px rgba(234, 179, 8, 0.45);
+}
+.glow-yellow-sm {
+  box-shadow: 0 0 12px -2px rgba(234, 179, 8, 0.5);
+}
+.glow-red {
+  box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.5);
+}
+.glow-red-sm {
+  box-shadow: 0 0 12px -2px rgba(239, 68, 68, 0.5);
+}
+.glow-green {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.45);
+}
+.glow-green-sm {
+  box-shadow: 0 0 12px -2px rgba(16, 185, 129, 0.5);
+}
+
+.text-glow-yellow {
+  text-shadow: 0 0 16px rgba(250, 204, 21, 0.7);
+}
+.text-glow-red {
+  text-shadow: 0 0 16px rgba(239, 68, 68, 0.7);
+}
+.text-glow-green {
+  text-shadow: 0 0 16px rgba(16, 185, 129, 0.7);
+}
+
+/* Cyber mesh & grid backgrounds */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle at 50% 0%, rgba(234, 179, 8, 0.08) 0%, rgba(239, 68, 68, 0.05) 30%, rgba(16, 185, 129, 0.04) 60%, transparent 80%);
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #090a10;
+}
+::-webkit-scrollbar-thumb {
+  background: #232733;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
